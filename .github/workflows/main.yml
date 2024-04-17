@@ -15,7 +15,8 @@ jobs:
       - name: Build
         env:
           CI: false
-          dev: true   
+          REACT_APP_GITHUB_URL: ${{ env.REACT_APP_GITHUB_URL}}
+          REACT_APP_RESUME_URL: ${{ env.REACT_APP_RESUME_URL}}
         run: npm run build
       - name: Archive Production Artifact
         uses: actions/upload-artifact@v2
