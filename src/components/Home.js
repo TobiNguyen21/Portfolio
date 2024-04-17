@@ -2,6 +2,10 @@ import React from 'react'
 import Tobi from '../assests/Tobi.png'
 import Slide from 'react-reveal/Flip';
 
+// Define URL constants
+const resumeURL = process.env.REACT_APP_RESUME_URL;;
+const githubURL = process.env.REACT_APP_GITHUB_URL;;
+
 const Home = () => {
     return (
         <div name='home' className='h-[100%] bg-[#eff9ff] px-4 w-[100%] lg:h-screen items-center flex justify-center'>
@@ -14,8 +18,8 @@ const Home = () => {
                     </Slide>
                     <Slide top>
                         <div className='flex mt-10'>
-                            <a href='https://drive.google.com/file/d/1N3VFiGJE6HNV0Pa_bQZ2rzULxA2Tc9Dt/view?usp=sharing' target='_blank' rel="noreferrer" className='font-[500] mr-3 w-[50%] bg-gray-800 text-white px-3 py-2 rounded-sm hover:cursor-pointer text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' >Resume</a>
-                            <a href='https://github.com/TobiNguyen21/' target='_blank' rel="noreferrer" className='font-[500] ml-3 w-[50%] bg-gray-800 text-white px-3 py-2 rounded-sm hover:cursor-pointer text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' >Github</a>
+                            <a href={resumeURL} target='_blank' rel="noreferrer" className='font-[500] mr-3 w-[50%] bg-gray-800 text-white px-3 py-2 rounded-sm hover:cursor-pointer text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' >Resume</a>
+                            <a href={githubURL} target='_blank' rel="noreferrer" className='font-[500] ml-3 w-[50%] bg-gray-800 text-white px-3 py-2 rounded-sm hover:cursor-pointer text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' >Github</a>
                         </div>
                     </Slide>
                 </div>

@@ -14,7 +14,8 @@ jobs:
         run: npm install --force
       - name: Build
         env:
-          CI: false        
+          CI: false
+          dev: true   
         run: npm run build
       - name: Archive Production Artifact
         uses: actions/upload-artifact@v2
