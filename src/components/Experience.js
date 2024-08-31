@@ -9,13 +9,13 @@ const Experience = () => {
                 <div className='mt-[10px] grid grid-cols-1 px-6'>
                     <div className='mb-[30px] text-[24px] sm:text-[30px] font-bold'>Job Experience :</div>
                     <div className='box_shadow rounded-[10px] mx-0 sm:mx-5 mb-[50px] p-[30px]'>
-                        <h1 className='text-[20px]  sm:text-[25px] font-bold mb-[10px]'>Back-end Developer</h1>
+                        <h1 className='text-[20px]  sm:text-[25px] font-bold mb-[10px]'>Software Engineer</h1>
                         <div className='flex justify-between mb-[30px]'>
-                            <p className='text-[15px] sm:text-[18px] font-[500]'>Wata Corp - Ho Chi Minh city</p>
+                            <p className='text-[15px] sm:text-[18px] font-[500]'>Wata Software - Ho Chi Minh city</p>
                             <p className='text-[15px] sm:text-[18px] font-[500]'>Jul, 2023 - Present</p>
                         </div>
                         <p className='text-[14px] sm:text-[17px]'>
-                            Currently, I am a Back-end Developer at Wata, working on a live project using Node.js. This project is a complex application carefully designed to offer a complete solution for 
+                            Currently, I am a Software Engineer at Wata, working on a live project using Node.js. This project is a complex application carefully designed to offer a complete solution for 
                             Enterprise Resource Planning (ERP). It seeks to create a thorough, integrated, and flexible system to help 
                             businesses effectively oversee their operations. System using NextJs, NestJs, Graphql, Postgresql, Docker, AWS ,...</p>
                     </div>
@@ -23,8 +23,8 @@ const Experience = () => {
                     <div className='box_shadow rounded-[10px] mx-0 sm:mx-5 mb-[30px] p-[30px]'>
                         <h1 className='text-[20px] sm:text-[25px] font-bold mb-[10px]'>Major- Computer Science and Embedded Systems</h1>
                             <div className='flex justify-between'>
-                            <p className='text-[15px] sm:text-[18px]'>Ho Chi Minh University of Science</p>
-                            <p className='text-[15px] sm:text-[18px]'>2020 - Present</p>
+                            <p className='text-[15px] sm:text-[18px]'>Ho Chi Minh University of Science (GPA: 3.45/4.0)</p>
+                            <p className='text-[15px] sm:text-[18px]'>2020 - 2024</p>
                         </div>
                     </div>
                 </div>

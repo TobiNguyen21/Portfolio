@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiJavascript, SiHtml5, SiCss3, SiJava, SiMysql, SiGithub, SiNodedotjs, SiExpress, SiMongodb, SiPostman, SiDocker, SiTypescript, SiNestjs, SiGraphql, SiCplusplus, SiPostgresql } from 'react-icons/si'
+import { SiJavascript, SiHtml5, SiCss3, SiJava, SiMysql, SiGithub, SiNodedotjs, SiExpress, SiMongodb, SiPostman, SiDocker, SiTypescript, SiNestjs, SiGraphql, SiCplusplus, SiPostgresql, SiRedis } from 'react-icons/si'
 import rest from '../assests/rest.png'
 import Zoom from 'react-reveal/Zoom';
 
@@ -87,6 +87,12 @@ const Technology = () => {
                             <div className='flex items-center box_shadow'>
                                 <SiMysql color='#F29111' style={{ background: 'white' }} />
                                 <p>Mysql</p>
+                            </div>
+                        </Zoom>
+                        <Zoom top>
+                            <div className='flex items-center box_shadow'>
+                                <SiRedis color='#F29111' style={{ background: 'white' }} />
+                                <p>Redis</p>
                             </div>
                         </Zoom>
                         <Zoom top>

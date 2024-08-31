@@ -88,12 +88,11 @@ const Projects = () => {
                                     <div className='md:ml-8 '>
                                         <h1 className='text-[25px] lg:text-[35px] font-[600] mb-[10px] mt-[20px] md:mt-[0px]'>Block-based C programming environment web/app</h1>
                                         <p className='text-[16px] lg:text-[18px] font-[400] mb-[10px]'>• This project is my graduation thesis at the university. Web app C is a static web consisting of only js,
-                                            html, css files with a very small size (less than 1MB). It runs entirely on the browser environment without needing a
+                                            html, css files with a very small size. It runs entirely on the browser environment without needing a
                                             backend server. The syntax elements of the C language are represented by blocks to help learners better understand the
                                             syntax components and their roles in a programming statement.
                                         </p>
-                                        <p className='text-[16px] lg:text-[18px] font-[400]'><span className='text-[16px] lg:text-[18px] font-[600]'>Tech :</span> Google Blockly, Javascript, HTML, CSS</p>
-
+                                        <p className='text-[16px] lg:text-[18px] font-[400]'><span className='text-[16px] lg:text-[18px] font-[600]'>Tech :</span> Google Blockly, Javascript, HTML, CSS, C</p>
                                         <div className='grid grid-cols-1 mt-[30px]'>
                                             <a className='box_shadow lg:w-[200px] text-[#fd7014] flex items-center cursor-pointer' href='https://tobinguyen21.github.io/Graduation-thesis/' alt="" target='_blank' rel="noreferrer"><SiGoogle className='mr-[10px]' color='black' />Website</a>
                                         </div>
