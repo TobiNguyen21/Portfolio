@@ -7,6 +7,7 @@ const Contacts = () => {
     const form = useRef();
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
+    const emailJsKey = process.env.REACT_APP_EMAILJS_PK;
 
     const successStyle = {
         position: 'top-right',
@@ -51,7 +52,7 @@ const Contacts = () => {
     const sendEmail = (e) => {
         e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
 
-        emailjs.sendForm('service_p8kg8fj', 'template_j61i2dl', form.current, 'beSvrPYcjmfDxnLhd')
+        emailjs.sendForm('service_gij0jwo', 'template_j61i2dl', form.current, emailJsKey)
             .then((result) => {
                 setName("")
                 setEmail("")
